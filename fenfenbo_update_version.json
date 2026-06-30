@@ -1,8 +1,8 @@
 {
   "versionCode": 2,
   "versionName": "0.1.1",
-  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/app-release.apk",
-  "sha256": "d083afc1faaf7640356d2dd97b71c1b242a9f5afddb01fe67b7181f5a31cc9b1",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/fenfenbo-v0.1.1-code2-release.apk",
+  "sha256": "10438c45fd4d2d2e4752025ed3a65c3fbfcca0e507c35787e939bb05d4ac1a3d",
   "releaseNotes": "开启 release 代码混淆和资源压缩",
   "force": false
 }
