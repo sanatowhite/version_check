@@ -1,0 +1,8 @@
+{
+  "versionCode": 1,
+  "versionName": "0.1.0",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/app-release.apk",
+  "sha256": "898b7c53769b747b3c4fa1ceee68a6ea50d9f90f131cbf42501391cbba2e735d",
+  "releaseNotes": "首次发布",
+  "force": false
+}
