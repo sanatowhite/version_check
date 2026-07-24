@@ -1,8 +1,8 @@
 {
-  "versionCode": 6,
-  "versionName": "1.0.0",
-  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.0.0-code6-release.apk",
-  "sha256": "799602119de08778316eddabf10f72d31bdcd42e4141c5a29f1f695d67db49bd",
-  "releaseNotes": "v1.0.0 更新内容\n- 新增待办事项功能\n- 新增\"听日记\"朗读功能，支持迷你播放条与本机音色选择\n- 新增语音速记：长按快速录音存入日记，支持后台/息屏持续录音\n- 备份能力增强：Google Drive 断点续传、进度条与预计剩余时间、隐私空间数据纳入备份、账号切换更可靠\n- 图片体验优化：新图自动压缩、全屏查看支持双指缩放与左右滑动切图\n- 分享导入优化：Plaud/小米笔记等来源解析更准确，标题与元数据处理更干净\n- 全新视觉改版：\"水滴日记\"风格贯穿首页、详情、历史、设置等页面，全新 App 图标\n- 安全性加固：密码锁定与解锁宽限逻辑重构\n- 新增应用内自动检查更新\n- 多项细节修复与稳定性提升",
+  "versionCode": 7,
+  "versionName": "1.0.1",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.0.1-code7-release.apk",
+  "sha256": "dded36bf38be157a9712d42fce198efed7f565d4aead40351a70ff1956b59907",
+  "releaseNotes": "v1.0.1 更新内容\n- 新增待办事项功能\n- 新增\"听日记\"朗读功能，支持迷你播放条与本机音色选择\n- 新增语音速记：长按快速录音存入日记，支持后台/息屏持续录音\n- 备份能力增强：Google Drive 断点续传、进度条与预计剩余时间、隐私空间数据纳入备份、账号切换更可靠\n- 图片体验优化：新图自动压缩、全屏查看支持双指缩放与左右滑动切图\n- 分享导入优化：Plaud/小米笔记等来源解析更准确，标题与元数据处理更干净\n- 全新视觉改版：\"水滴日记\"风格贯穿首页、详情、历史、设置等页面，全新 App 图标\n- 安全性加固：密码锁定与解锁宽限逻辑重构\n- 新增应用内自动检查更新\n- 多项细节修复与稳定性提升",
   "force": false
 }
