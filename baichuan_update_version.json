@@ -1,0 +1,8 @@
+{
+  "versionCode": 35,
+  "versionName": "1.4.0",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/baichuan-v1.4.0-code35-release.apk",
+  "sha256": "73287930ecbdaf4d39d9ecc6990eed0ca1f946e3f619111cca7db7a866f91302",
+  "releaseNotes": "v1.4.0 更新内容\n- 新增 51吃瓜(51cg1.com) 视频源，支持播放、去广告、下载\n- 新增播放历史\n- 新增冷启动音量提醒\n- 修复本地收藏偶发丢失的问题\n- 修复视频偶发无法播放、全屏切换失败的问题\n- 改进浏览器视频嗅探\n- 大量内部 Kotlin 化与架构升级，不影响使用",
+  "force": false
+}
