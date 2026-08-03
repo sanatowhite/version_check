@@ -1,8 +1,8 @@
 {
-  "versionCode": 37,
-  "versionName": "1.4.2",
-  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/baichuan-v1.4.2-code37-release.apk",
-  "sha256": "777dee7ee79f82fc2ce041f1b3f8c4ca06a7aa4f5aed86b19243ab3a3dd0667d",
-  "releaseNotes": "v1.4.2 更新内容\n- 修复\"检查更新\"手动点击没反应的问题（之前手动检查被自动检查的每日节流误挡住了）\n\nv1.4.1 更新内容\n- 修复播放页快进/快退按钮不显示的问题\n- 修复部分页面被状态栏遮挡的问题\n- 修复51吃瓜视频源封面图无法显示的问题\n- 冷启动音量提醒改为提示条，已静音/音量调低时不再提示\n- 修复浏览器嗅探到的m3u8视频下载后无法播放的问题，改为真正的分片下载+解密\n- 升级 AGP 并开启 R8 全量混淆优化，安装包体积更小",
+  "versionCode": 38,
+  "versionName": "1.5.0",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/baichuan-v1.5.0-code38-release.apk",
+  "sha256": "676d5d9250e7c2307069405dfc9c4042655e6d219b012cf8b5463365a54194e0",
+  "releaseNotes": "v1.5.0 更新内容\n- 精简App功能范围，聚焦视频源浏览/播放/下载：移除图片画廊(妹子图/豆瓣/花瓣/99mm)、论坛浏览、草榴外链、关于页、公告弹窗等非视频相关功能\n- 移除 Bugly 崩溃上报(含native库)，移除 Markwon 及其唯一依附的\"常见问题\"功能\n- 移除一处可被论坛第三方网页内容调用的设备IMSI读取接口及对应权限，清理多个已失效/多余的系统权限声明\n- 安装包进一步瘦身\n\nv1.4.2 更新内容\n- 修复\"检查更新\"手动点击没反应的问题（之前手动检查被自动检查的每日节流误挡住了）\n\nv1.4.1 更新内容\n- 修复播放页快进/快退按钮不显示的问题\n- 修复部分页面被状态栏遮挡的问题\n- 修复51吃瓜视频源封面图无法显示的问题\n- 冷启动音量提醒改为提示条，已静音/音量调低时不再提示\n- 修复浏览器嗅探到的m3u8视频下载后无法播放的问题，改为真正的分片下载+解密\n- 升级 AGP 并开启 R8 全量混淆优化，安装包体积更小",
   "force": false
 }
