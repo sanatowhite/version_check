@@ -1,8 +1,8 @@
 {
-  "versionCode": 36,
-  "versionName": "1.4.1",
-  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/baichuan-v1.4.1-code36-release.apk",
-  "sha256": "7a2ae00c20c8d5766ebccf32505b3e22fbf87a76e88986895de38bd7e8699179",
-  "releaseNotes": "v1.4.1 更新内容\n- 修复播放页快进/快退按钮不显示的问题\n- 修复部分页面被状态栏遮挡的问题\n- 修复51吃瓜视频源封面图无法显示的问题\n- 冷启动音量提醒改为提示条，已静音/音量调低时不再提示\n- 修复浏览器嗅探到的m3u8视频下载后无法播放的问题，改为真正的分片下载+解密\n- 升级 AGP 并开启 R8 全量混淆优化，安装包体积更小",
+  "versionCode": 37,
+  "versionName": "1.4.2",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/baichuan-v1.4.2-code37-release.apk",
+  "sha256": "777dee7ee79f82fc2ce041f1b3f8c4ca06a7aa4f5aed86b19243ab3a3dd0667d",
+  "releaseNotes": "v1.4.2 更新内容\n- 修复\"检查更新\"手动点击没反应的问题（之前手动检查被自动检查的每日节流误挡住了）\n\nv1.4.1 更新内容\n- 修复播放页快进/快退按钮不显示的问题\n- 修复部分页面被状态栏遮挡的问题\n- 修复51吃瓜视频源封面图无法显示的问题\n- 冷启动音量提醒改为提示条，已静音/音量调低时不再提示\n- 修复浏览器嗅探到的m3u8视频下载后无法播放的问题，改为真正的分片下载+解密\n- 升级 AGP 并开启 R8 全量混淆优化，安装包体积更小",
   "force": false
 }
