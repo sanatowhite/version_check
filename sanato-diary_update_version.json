@@ -1,8 +1,8 @@
 {
-  "versionCode": 8,
-  "versionName": "1.1.0",
-  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.1.0-code8-release.apk",
-  "sha256": "067760e50311215c90f1ab73fc507ae2bf4e7c63f10cef400b502c5f30479ed1",
-  "releaseNotes": "v1.1.0 更新内容\n- 新增回忆页签：历史上的今天 + 图片/视频画廊，支持视频播放、点击跳转回原日记\n- 新增普通日记与隐私日记互相转换，心情/收藏/标签随日记一并迁移\n- 操作菜单统一为暖纸底部面板风格\n- 安全加固：签名校验与 root 检测拦截，全局禁止截屏录屏\n- 多项细节修复与稳定性提升",
-  "force": false
+  "versionCode": 9,
+  "versionName": "1.1.1",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.1.1-code9-release.apk",
+  "sha256": "f7be45cf0d7aa47ac14c0a7793b4f38b9aad63ccaeabbb177b62d1ad9caa576d",
+  "releaseNotes": "v1.1.1 更新内容\n- 相册支持跨月连续滑动浏览图片，切换月份时会有提示\n- 修复隐私空间锁屏后解锁未重新验证密码/指纹的问题，并统一了各页面的解锁校验\n- 修复 Plaud 导入笔记后追加文字/编辑内容被误删的问题",
+  "force": true
 }
