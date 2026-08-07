@@ -1,8 +1,8 @@
 {
-  "versionCode": 9,
-  "versionName": "1.1.1",
-  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.1.1-code9-release.apk",
-  "sha256": "f7be45cf0d7aa47ac14c0a7793b4f38b9aad63ccaeabbb177b62d1ad9caa576d",
-  "releaseNotes": "v1.1.1 更新内容\n- 相册支持跨月连续滑动浏览图片，切换月份时会有提示\n- 修复隐私空间锁屏后解锁未重新验证密码/指纹的问题，并统一了各页面的解锁校验\n- 修复 Plaud 导入笔记后追加文字/编辑内容被误删的问题",
-  "force": true
+  "versionCode": 10,
+  "versionName": "1.2.0",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.2.0-code10-release.apk",
+  "sha256": "2500d5a84f7816d14c33fb616f8537a36200674b50db6efc48e66a08ee787d52",
+  "releaseNotes": "v1.2.0 更新内容\n- 新增崩溃监控，出问题能更快发现和修复\n- 修复隐私空间心情标签可能串到主空间的问题\n- 修复伪装（诱饵）空间误把内容同步进云备份的问题\n- 备份与恢复（本地导出导入、云盘同步）核心引擎全面升级，更稳定",
+  "force": false
 }
