@@ -1,8 +1,8 @@
 {
-  "versionCode": 11,
-  "versionName": "1.3.0",
-  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.3.0-code11-release.apk",
-  "sha256": "f63890b9fe8879209fd4c22a048ad7586f3d5a7348b07a958786f0a7b9243d47",
-  "releaseNotes": "新增功能：\n- 语音转日记（AI）：新增 OpenAI / Claude / Groq 自带密钥（BYOK）转写，以及端上 SenseVoice 离线语音转写，无需联网也能把录音转成日记\n- 分享导入支持 Markdown：从其他 app（如 Plaud）分享进来的 Markdown 内容，标题、加粗斜体、引用、列表、链接、代码块等语法会自动清洗成干净可读的正文，不再残留 # ** > 等符号\n- 随笔模板兼容：分享导入时新增对 Plaud「随笔」模板的识别与清洗，标题/心情/标签/天气/地点能正确提取\n\n修复：\n- 修复分享导入随笔模板时标题日期前缀未剥离、显示成两截不同字号的问题\n- 修复导入进行中标志位失效可能导致的数据覆盖风险\n- 补全英文/繁体中文翻译缺失，修复 3 处提示硬编码中文的问题\n\n优化：\n- 设置页精简：AI 相关设置独立成子页\n- 备份引擎持续迁移至独立发布的 SDK 模块，更稳定",
+  "versionCode": 12,
+  "versionName": "1.3.1",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.3.1-code12-release.apk",
+  "sha256": "3181b09a3d37ea495cfea5d2af8d1984e491eb23bd3e63ab7dafaf08dc7cbd97",
+  "releaseNotes": "修复：\n- 安装包体积：移除端上离线语音转写引擎，release 安装包从 30MB 降到 6.4MB。语音转日记功能不受影响，继续走云端转写（OpenAI/Groq，需自行配置 API Key）；如果之前开启过\"优先使用端上转写\"，该开关已随功能一起移除。",
   "force": false
 }
