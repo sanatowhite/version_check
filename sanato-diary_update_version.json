@@ -1,8 +1,8 @@
 {
-  "versionCode": 12,
-  "versionName": "1.3.1",
-  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.3.1-code12-release.apk",
-  "sha256": "3181b09a3d37ea495cfea5d2af8d1984e491eb23bd3e63ab7dafaf08dc7cbd97",
-  "releaseNotes": "修复：\n- 安装包体积：移除端上离线语音转写引擎，release 安装包从 30MB 降到 6.4MB。语音转日记功能不受影响，继续走云端转写（OpenAI/Groq，需自行配置 API Key）；如果之前开启过\"优先使用端上转写\"，该开关已随功能一起移除。",
+  "versionCode": 13,
+  "versionName": "1.3.2",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.3.2-code13-release.apk",
+  "sha256": "a7074b7767ffcc0c8230243d632a5d6ac66de83eed18bc2233b270b88f067420",
+  "releaseNotes": "修复：\n- 首页「N 篇待备份」提醒条清不掉：手动点「立即备份」后，即使备份已经成功，提醒条上的数字也一直不降。现已修正。\n- Google Drive 授权失效时毫无提示：授权一旦过期（长期未用、被撤销、换账号），新写的日记会静默积压、提醒条数字只增不减，却不告诉你原因。现在提醒条会直接显示「Google Drive 授权已失效 · 点此重新授权」，点一下即可恢复备份。",
   "force": false
 }
