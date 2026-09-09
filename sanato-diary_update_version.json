@@ -1,8 +1,8 @@
 {
-  "versionCode": 13,
-  "versionName": "1.3.2",
-  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.3.2-code13-release.apk",
-  "sha256": "a7074b7767ffcc0c8230243d632a5d6ac66de83eed18bc2233b270b88f067420",
-  "releaseNotes": "修复：\n- 首页「N 篇待备份」提醒条清不掉：手动点「立即备份」后，即使备份已经成功，提醒条上的数字也一直不降。现已修正。\n- Google Drive 授权失效时毫无提示：授权一旦过期（长期未用、被撤销、换账号），新写的日记会静默积压、提醒条数字只增不减，却不告诉你原因。现在提醒条会直接显示「Google Drive 授权已失效 · 点此重新授权」，点一下即可恢复备份。",
+  "versionCode": 14,
+  "versionName": "1.3.3",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.3.3-code14-release.apk",
+  "sha256": "9c097959e7af198579bc48e4b4ade1d4119e57d93d859926e5c069fe804b5e62",
+  "releaseNotes": "修复：\n- 写完日记退出编辑器时，云备份会被中途中断，导致首页「N 篇待备份」的数字每写一篇就 +1、且永远降不下来。现已改为后台独立执行，退出页面也会把备份跑完。\n- 点「立即备份」提示备份已在后台开始却没有任何进度：如果此时正好有一次自动备份在跑，手动备份会被静默跳过。现在手动备份会排队等待并真正执行。\n- 备份任务被中断后，后续所有备份都被误判成已有任务在运行而跳过，必须重启 app 才能恢复。已修正。",
   "force": false
 }
