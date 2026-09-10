@@ -1,8 +1,8 @@
 {
-  "versionCode": 14,
-  "versionName": "1.3.3",
-  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.3.3-code14-release.apk",
-  "sha256": "9c097959e7af198579bc48e4b4ade1d4119e57d93d859926e5c069fe804b5e62",
-  "releaseNotes": "修复：\n- 写完日记退出编辑器时，云备份会被中途中断，导致首页「N 篇待备份」的数字每写一篇就 +1、且永远降不下来。现已改为后台独立执行，退出页面也会把备份跑完。\n- 点「立即备份」提示备份已在后台开始却没有任何进度：如果此时正好有一次自动备份在跑，手动备份会被静默跳过。现在手动备份会排队等待并真正执行。\n- 备份任务被中断后，后续所有备份都被误判成已有任务在运行而跳过，必须重启 app 才能恢复。已修正。",
+  "versionCode": 15,
+  "versionName": "1.3.4",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.3.4-code15-release.apk",
+  "sha256": "8a4275d442e979ac9b0ce3c08ba1f70a886754a590f13fed23e0974478817a00",
+  "releaseNotes": "v1.3.4 更新内容\n- 修复手动「立即备份」可能一直转圈不结束的问题，1500+ 篇日记现在十几秒完成\n- 修复备份完成/失败的通知一闪就消失、看不到结果的问题\n- 备份遇到网络异常时不再无限等待，会明确提示失败并可重试",
   "force": false
 }
