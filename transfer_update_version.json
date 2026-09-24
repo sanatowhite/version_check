@@ -1,0 +1,8 @@
+{
+  "versionCode": 2,
+  "versionName": "1.1",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/transfer-v1.1-code2-release.apk",
+  "sha256": "ecbdc42b48b74268dfa5829810ea1c18a789a8e808b92aa588a3e8f3da361f0d",
+  "releaseNotes": "v1.1 测试版本更新",
+  "force": false
+}
