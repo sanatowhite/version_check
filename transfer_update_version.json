@@ -1,8 +1,8 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1",
-  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/transfer-v1.1-code2-release.apk",
-  "sha256": "ecbdc42b48b74268dfa5829810ea1c18a789a8e808b92aa588a3e8f3da361f0d",
-  "releaseNotes": "v1.1 测试版本更新",
+  "versionCode": 4,
+  "versionName": "1.3",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/transfer-v1.3-code4-release.apk",
+  "sha256": "d17e7b5ce5da4921157aeaa6b69d9d36416ebd360f56b8fefe521ef5fe42f2ed",
+  "releaseNotes": "v1.3：收款人名字支持下拉选择历史记录（手动输入的名字会自动保存）；手机号改为选填；转账成功页新增 STAN ID，Reference no. 改为时间戳规则",
   "force": false
 }
