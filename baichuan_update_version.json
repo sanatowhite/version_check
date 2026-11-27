@@ -1,0 +1,8 @@
+{
+  "versionCode": 68,
+  "versionName": "1.27.1",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/baichuan-v1.27.1-code68-release.apk",
+  "sha256": "c0ab9de52a9d774e8e5ddb04077ca197b3aeabb778c0b14de51b1ab4fe714ad3",
+  "releaseNotes": "v1.27.1 更新内容\n- 私密库：修掉部分视频封面还是同一张的问题——关键帧稀疏的视频（从流里重组的文件常见）以前几个取样点会解到同一帧，现在按精确时间点重新抽帧\n- 私密库：读不出片长的视频也会继续抽帧，不再直接停在第一帧\n- 私密库：视频封面缓存加了版本号，升级后旧的封面自动作废、重新生成",
+  "force": false
+}

@@ -1,0 +1,8 @@
+{
+  "versionCode": 18,
+  "versionName": "1.5.1",
+  "apkUrl": "https://raw.githubusercontent.com/sanatowhite/version_check/main/sanato-diary-v1.5.1-code18-release.apk",
+  "sha256": "862a4e39ecc419a0c91cb2a9ed13702962b932e8d656ccc2dbf5393a19abbe31",
+  "releaseNotes": "v1.5.1 更新内容\n- 密码本入口从标题下的小标签改成右下角的悬浮按钮（钥匙图标），拇指够得着，一眼能看到。\n- 修复导入 .txt / .md 时下划线被吃掉：user_name 变 username、备份文件名_2026_11_16_最终版.txt 变备份文件名20261116最终版.txt、路径里的下划线也会丢。文件名、路径、变量名现在原样保留。\n- 修复 Windows 换行（CRLF）的 .txt 导入后每行末尾留着不可见字符。\n- 修复带 UTF-8 BOM 的 .md / .txt 导入后标题和元数据解析不出来。\n- 修复导入 .md 时正文里的 # 标题行被丢掉。",
+  "force": false
+}
